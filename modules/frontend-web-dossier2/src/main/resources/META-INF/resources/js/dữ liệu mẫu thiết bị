@@ -1,0 +1,92 @@
+{
+    "ghi_chu": "âsasasasa",
+    "temp": "1234567",
+    "nd_4_2_10_result": 1,
+    "ket_qua_kiem_tra": [
+        {
+            "specificationDisplayName": "Nhãn hiệu:",
+            "sequenceNo": 1,
+            "specificationName": "mark",
+            "mark": "HONDA",
+            "markTest": "HONDA",
+            "markResult": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        },
+        {
+            "specificationDisplayName": "Model:",
+            "sequenceNo": 2,
+            "specificationName": "model",
+            "model": "12345",
+            "modelTest": "12345",
+            "modelResult": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        },
+        {
+            "specificationDisplayName": "Mã số Seri:",
+            "sequenceNo": 3,
+            "specificationName": "seri",
+            "seri": "12345",
+            "seriTest": "12345",
+            "seriResult": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        },
+        {
+            "specificationDisplayName": "Năm SX:",
+            "sequenceNo": 4,
+            "specificationName": "year",
+            "year": "2020",
+            "yearTest": "2020",
+            "yearResult": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        },
+        { 
+            "specificationDisplayName": "Nước SX:",
+            "sequenceNo": 5,
+            "specificationName": "country",
+            "country": "Tàu",
+            "countryTest": "Tàu",
+            "countryResult": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        },
+        {
+            "specificationDisplayName": "Tình trạng hoạt động:",
+            "sequenceNo": 6,
+            "specificationName": "status",
+            "status": "1 or 1" // 1 là hoạt động, 2 Ko hoạt dộng
+        },
+        {
+            "sequenceNo": 7,
+            "specificationDisplayName": "Kiểm tra độ chính xác <i>(được thực hiện bằng 1 trong 2 phương pháp sau, ưu tiên phương pháp ở mục b)</i>",
+            "specificationName": "precise"
+        },
+        {
+            "sequenceNo": 8,
+            "specificationDisplayName": "<b>a. Kiểm tra chính xác bằng thiết bị chuẩn</b>",
+            "specificationName": "precise_a"
+        },
+        {
+            "sequenceNo": 9,
+            "specificationDisplayName": "Kiểm tra độ chính xác lần đầu dB(A)",
+            "specificationName": "a1_giatri1",
+            "a1_giatri1": "120",
+            "a1_giatri1Test": "170",
+            "a1_giatri1Result": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        },
+        {
+            "sequenceNo": 10,
+            "specificationDisplayName": "Kiểm tra độ chính xác lần đầu dB(A)",
+            "specificationName": "a1_giatri2",
+            "a1_giatri2": "120",
+            "a1_giatri2Test": "170",
+            "a1_giatri2Result": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        },
+        {
+            "sequenceNo": 11,
+            "specificationDisplayName": "<b>b. Kiểm tra theo tài liệu hướng dẫn của nhà sản xuất</b>",
+            "specificationName": "precise_b"
+        },
+        {
+            "sequenceNo": 12,
+            "specificationDisplayName": "Thông số yêu cầu của nhà sản xuất",
+            "specificationName": "b1_giatri1",
+            "b1_giatri1": "120",
+            "b1_giatri1Test": "170",
+            "b1_giatri1Result": "1, 4 or 5" // 1 là đạt 4 Ko đạt, 5 NA
+        }
+    ]
+}

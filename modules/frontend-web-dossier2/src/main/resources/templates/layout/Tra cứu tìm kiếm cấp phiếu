@@ -1,0 +1,32 @@
+Tra cứu tìm kiếm cấp phiếu
+
+Kiểm kê 
+
+Thêm loading khi nhập phiếu số lượng nhiều có khi lên đến 500.000 phiếu
+
+Chứng từ đẩy sang cùng bên với thông tin chung
+
+Ẩn cột trạng thái ở số phiếu nhập
+
+xem GCN đổi thành dạng bảng
+
+bỏ phần ý kiến của phần cấp phiếu
+
+bỏ clearable của ô xưởng, địa chỉ của cấp phiếu
+
+Nút in phiếu bàn giao cần thêm api để ghép vì có trường hợp cần in phiếu bàn giao để đưa cho khách hàng, sau đó mới ấn nút xác nhận
+
+Ở phần cập nhật số seri cần khóa các ô ko chỉ chừa lại ô số seeri để cho người dùng nhập
+
+thông báo phiếu hỏng sai label thành phiếu mất
+
+thêm validate số lượng xe ở màn hình nhập hồ sơ
+
+
+
+
+
+
+
+
+

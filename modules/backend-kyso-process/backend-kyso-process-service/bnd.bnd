@@ -1,0 +1,21 @@
+Bundle-Name: backend-kyso-process-service
+Bundle-SymbolicName: backend.kyso.process.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-includeresource: \
+@itext-2.1.7.jar;lib:=true,\
+@itextpdf-5.5.6.jar;lib:=true,\
+@httpclient-4.5.6.jar;lib:=true,\
+@httpcore-4.4.10.jar;lib:=true,\
+@httpmime-4.5.6.jar;lib:=true,\
+@vgca.svrsigner.jar;lib:=true,\
+@vgca.hsmsigner.jar;lib:=true,\
+@bcpkix.jar;lib:=true,\
+@bcprov.jar;lib:=true,\
+@kysovanban.jar;lib:=true,\
+@pdfbox.jar;lib:=true,\
+@fontbox.jar;lib:=true,\
+@opencpspki.jar;lib:=true
+Import-Package: *;resolution:=optional
+Export-Package: org.opencps.kyso.action.impl

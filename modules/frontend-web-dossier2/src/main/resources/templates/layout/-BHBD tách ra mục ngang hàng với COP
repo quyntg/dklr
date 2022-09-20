@@ -1,0 +1,16 @@
+- BHBD tách ra mục ngang hàng với COP
+- Bỏ số fax
+- Loại hình đc chọn tick nhiều (sản xuất lắp ráp, nhập khẩu)
+- Loại hình đánh giá : cấp mới, định kỳ, cấp đổi, cấp lại
+- Khi loại hình đánh giá là định kỳ thì ko cần bước thẩm định hồ sơ, còn lại phải có thêm bước thẩm định hồ sơ (Phân cân đkv thẩm định hồ sơ, thẩm định xong sẽ trả ra kết quả)
+- Phiếu phân công cần thêm sdt của đăng kiểm viên
+- ô nhập ý kiến cho nổi khung để dễ nhìn
+- nghiên cứu thêm 1 rổ kq đánh giá hồ sơ của tổ trưởng
+- các nut bỏ BHBD cho ngắn gọn
+- cảnh báo trùng thiết bị kiểm tra theo tên tb, nhãn hiệu, model, serial 
+- thêm bảng ko bắt buộc của thiết bị cả ở bản khai và biên bản
+- cấp mới, cấp đổi, cấp lại sẽ ra gcn, còn định kỳ sẽ ra thông báo
+- Phân trang bị lỗi ở cssx nước ngoài
+- Ở bản khai đang lấy địa chỉ trụ sở chính, địa chỉ nhà xưởng nước ngoài sai key, đang lấy theo tên hết
+- phần xem lại hồ sơ cop đầu doanh nghiệp bản khai trực tuyen cần xem lại dữ liệu, xem lại ko hiển thị đủ thông tin 
+- biên bản COP xem lại thao tác với nhiều tài khoản

@@ -1,0 +1,2 @@
+contextPath=/dklr
+authVerifierProperties=auth.verifier.BasicAuthHeaderAuthVerifier.urls.includes=*

@@ -1,0 +1,36 @@
+- thông tin nhà xưởng xem ở cop doanh nghiệp
+- /o/rest/vr-app/certificate/vehicleClass module = 3
+- thông tin bind sẵn chọn GCN chưa chính xác
+- số lượng chưa nhập xe bằng 0
+- cột giá bán đánh dấu * chưa nhập phải bôi vàng, nhập xong format tiền
+- chữ chi tiết header bảng đổi thành DS xe
+- thêm cột kê khai LK
+- chữ bên dưới cột kê khai là linh kiện
+- chứ chi tiết đổi lại xe
+- chi tiết linh kiện gióng form tổng thành của CNCL kiểu loại toàn xe
+- khi click ghi lại form phải save vào  vr_issue, vr_issue_vehiclecertificate, vr_issue_equipmentcertificate, vr_VehicleRecord
+- Ấn nộp hò sơ phải lưu vào vr_rp_dossierStatistic
+
+
+
+- Trong form đề nghị cấp phiếu 
+	+ Sau tên nhà máy sản xuất thêm địa chỉ xưởng SXLR
+	+ Cột Số GCN thêm ngày chứng nhận
+	+ thêm cột số lượng
+	+ thêm label tổng số lượng xe ( của tất cả các GCN) bên phải Đề nghị cấp phiếu
+
+- CHờ cấp phát
+	+ thụ lý ở tài khoản lenm thêm label Phiếu bàn giao, ngày xuất lấy ngày hiện tại
+	+ Ds GCN thiếu
+	+ Số lượng chưa câp = 4 
+	+ Số luong => SL
+	+ Số lượng duyệt cấp: 4
+	+ Loại P.tiện: 
+	+ Ngày cấp ko có giờ, đẩy xuống dưới
+	+ Thông tin cấp phát phiếu => Bản kê phiếu
+	+ POPup label Thêm giấy chứng nhận => Kê khai phiếu
+	+ khi bật popup ke khai phiếu phải so sánh số lượng kê khai phiếu với số lượng chờ cấp nếu số lượng cấp > sl chờ cấp thù cảnh báo: Sl kê khai vượt quá SL duyệt cấp
+	+ Bảng ds xe check xem có số seri nào chưa điền thì cảnh báo còn x xe chưa điền số seri
+	+ Số phiếu xuất mặc định ---
+	+ thêm api lấy phiếu xuất vừa tạo của hồ sơ dựa vào dossierID
+	+ 

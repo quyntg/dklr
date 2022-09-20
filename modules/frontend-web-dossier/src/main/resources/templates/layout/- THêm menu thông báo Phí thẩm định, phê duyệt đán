@@ -1,0 +1,12 @@
+- THêm menu thông báo Phí thẩm định, phê duyệt đánh giá ANCB
+		+ Số GCN, ngày, tên cảng biển, tổng tiền, thao tác (Xem)
+- Thêm menu thống kê, quản lý công nợ
+		+ giống như thống kê
+		+ Khung filter bên trên gồm có chọn mẫu báo cáo
+		+ có đại lý/ đơn vị thanh toán
+		+ có 2 nút xuất pdf, exel
+
+- Trong mục chi tiết biên lai với nút xác nhận thanh toán cần popup ra form, trong màn hình chi tiết thay toàn bộ hóa đơn =  biên lai
+		+ với mục đích cính là tránh bão trừ lệ phí ra vào thì các phí # = 0
+		
+

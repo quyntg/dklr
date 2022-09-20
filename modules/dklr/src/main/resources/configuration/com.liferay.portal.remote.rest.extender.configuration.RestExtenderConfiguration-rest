@@ -1,0 +1,2 @@
+contextPaths=/dklr
+jaxRsServiceFilterStrings=(component.name=dklr.application.DklrApplication)

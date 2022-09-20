@@ -1,0 +1,175 @@
+[
+{
+    "label": "Cơ sở thiết kế",
+    "filterKey": "dos.applicantName",
+    "filterCondition": "AND_[dos.applicantName]_like_condition",
+    "filterOperator": "like",
+    "filterType": "string",
+    "defaultValue": ""
+  },
+ {
+    "label": "Số hồ sơ",
+    "filterKey": "dos.dossierNo",
+    "filterCondition": "AND_[dos.dossierno]_=_condition",
+    "filterOperator": "=",
+    "filterType": "string",
+    "defaultValue": ""
+  },
+  {
+    "label": "Loại phương tiện",
+    "filterKey": "dos.certifiedvehicletype",
+    "filterCondition": "AND_[dos.certifiedvehicletype]_=_condition",
+    "filterOperator": "=",
+    "filterType": "select",
+    "items": [],
+    "itemText": "value",
+		"itemValue": "key",
+		"url": "/o/rest/vr-app/collections/VR02/XCG/items",
+    "defaultValue": ""
+  },
+	{
+    "label": "Nhãn hiệu",
+    "filterKey": "dos.certifiedtrademarkname",
+    "filterCondition": "AND_[dos.certifiedtrademarkname]_like_condition",
+    "filterOperator": "like",
+    "filterType": "string",
+    "defaultValue": ""
+  },
+	{
+    "label": "Tên thương mại",
+    "filterKey": "dos.certifiedcommercialname",
+    "filterCondition": "AND_[dos.certifiedcommercialname]_like_condition",
+    "filterOperator": "like",
+    "filterType": "string",
+    "defaultValue": ""
+  },
+	{
+    "label": "Mã kiểu loại",
+    "filterKey": "dos.certifiedmodelcode",
+    "filterCondition": "AND_[dos.certifiedmodelcode]_like_condition",
+    "filterOperator": "like",
+    "filterType": "string",
+    "defaultValue": ""
+  },	
+	{
+    "label": "Ký hiệu thiết kế",
+    "filterKey": "cer.designsymbol",
+    "filterCondition": "AND_[cer.designsymbol]_like_condition",
+    "filterOperator": "like",
+    "filterType": "string",
+    "defaultValue": ""
+  },
+  {
+    "label": "Ngày nhận hồ sơ",
+    "filterKey": "dos.dossierreceivingdate",
+    "filterCondition": "AND_[dos.dossierreceivingdate]_between_condition",
+    "filterOperator": "",
+    "filterType": "date"
+  },
+    {
+    "label": "Ngày phân công",
+    "filterKey": "dos.dossierfirstassignmentdate",
+    "filterCondition": "AND_[dos.dossierfirstassignmentdate]_between_condition",
+    "filterOperator": "",
+    "filterType": "date"
+  },
+  {
+    "label": "Ngày ycbs lần đầu",
+    "filterKey": "dos.dossierfirstupdatingdate",
+    "filterCondition": "AND_[dos.dossierfirstupdatingdate]_between_condition",
+    "filterOperator": "",
+    "filterType": "date"
+  },
+{
+    "label": "Ngày chuyển tổ trưởng",
+    "filterKey": "dos.dossierfirstreviewdate",
+    "filterCondition": "AND_[dos.dossierfirstreviewdate]_between_condition",
+    "filterOperator": "",
+    "filterType": "date"
+  },
+{
+    "label": "Ngày ký gcn",
+    "filterKey": "cer.verificationCertificateDate",
+    "filterCondition": "AND_[cer.verificationCertificateDate]_between_condition",
+    "filterOperator": "",
+    "filterType": "date"
+  },
+  {
+    "label": "Số GCN",
+    "filterKey": "cer.verificationCertificateNo",
+    "filterCondition": "AND_[cer.verificationCertificateNo]_like_condition",
+    "filterOperator": "like",
+    "filterType": "string",
+    "defaultValue": ""
+  },
+	{
+    "label": "Khối lượng bản thân",
+    "filterKey": "tec.XCG01072",
+    "filterCondition": "AND_[tec.XCG01072]_range_condition",
+    "filterOperator": "=",
+    "filterType": "number",
+    "defaultValue": "0"
+  },
+	{
+    "label": "Công thức bánh xe",
+    "filterKey": "tec.XCG01070",
+    "filterCondition": "AND_[tec.XCG01070]_=_condition",
+    "filterOperator": "=",
+    "filterType": "select",
+    "items": [],
+    "itemText":"itemName",
+    "itemValue":"itemCode",
+    "url":"/o/rest/v2/dictcollections/VR06/dictgroups/XCG/dictitems",
+    "defaultValue": ""
+  },
+	{
+    "label": "Loại hộp số",
+    "filterKey": "tec.XCG01334",
+    "filterCondition": "AND_[tec.XCG01334]_=_condition",
+    "filterOperator": "=",
+    "filterType": "select",
+    "items": [],
+    "itemText":"itemName",
+    "itemValue":"itemCode",
+    "url":"/o/rest/v2/dictcollections/VR12/dictgroups/XCG/dictitems",
+    "defaultValue": ""
+  },
+    {
+    "label": "Tinh",
+    "filterKey": "tec.tinh",
+    "filterCondition": "AND_[tec.tinh]_=_condition",
+    "triggerComponent": ["tec.huyen", "tec.xa"],
+    "filterOperator": "=",
+    "filterType": "select",
+    "items": [],
+    "itemText":"itemName",
+    "itemValue":"itemCode",
+    "url":"/o/rest/v2/dictcollections/VR12/dictgroups/XCG/dictitems",
+    "defaultValue": ""
+  },
+      {
+    "label": "Huyen",
+    "filterKey": "tec.huyen",
+    "filterCondition": "AND_[tec.huyen]_=_condition",
+    "triggerComponent": ["tec.xa"],
+    "filterOperator": "=",
+    "filterType": "select",
+    "items": [],
+    "itemText":"itemName",
+    "itemValue":"itemCode",
+    "url":"/o/rest/v2/dictcollections/VR12/dictgroups/XCG/dictitems?parent=#:tec.tinh#",
+    "defaultValue": ""
+  },
+{
+    "label": "Xa",
+    "filterKey": "tec.xa",
+    "filterCondition": "AND_[tec.xa]_=_condition",
+    "filterOperator": "=",
+    "filterType": "select",
+    "items": [],
+    "itemText":"itemName",
+    "itemValue":"itemCode",
+    "url":"/o/rest/v2/dictcollections/VR12/dictgroups/XCG/dictitems?parent=#:tec.huyen#",
+    "defaultValue": ""
+  }
+]

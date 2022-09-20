@@ -1,0 +1,13 @@
+- MOdule Linh kiện xe máy, xe cơ giới
+	+ Vẫn chưa đúng số lượng
+	+ Các cột trên bảng thêm số hồ sơ, cơ sở sản xuất lắp ráp/ nhập khẩu, địa chỉ, xưởng sản xuất lắp ráp, địa chỉ xưởng và các phần còn lại
+	+ THêm tổng số hs cuối ds
+	+ Linh kiện xe cơ giới chưa truyền module, chưa đúng ds
+	+ Select * from vr_vehicletypecertificate where module ... = and serviceCode = ... 
+	+ Tìm kiếm theo tên nhà xưởng ko ra do chưa lưu dc vào db
+	+ Tìm theo mã hồ sơ (dossierNo) ko ra dữ liệu
+	+ Tìm theo số báo cáo đánh giá COP chưa ra (sai key)
+	+ Lệch css khi thêm điều kiện do dòng dài hơn bình thường
+	+ tìm theo ngày thêm placeholder từ ngày đến ngày
+	+ Tìm theo ngày báo cáo đánh giá cop chưa đc
+	+ Tiêu chuẩn an toàn chung chưa tìm đc 

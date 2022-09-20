@@ -1,0 +1,11 @@
+Bundle-Name: vr-filterconfig-api
+Bundle-SymbolicName: vr.filterconfig.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.fds.vr.filterconfig.exception,\
+	com.fds.vr.filterconfig.model,\
+	com.fds.vr.filterconfig.service,\
+	com.fds.vr.filterconfig.service.persistence,\
+	com.fds.vr.filterconfig.xmlmodel
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../vr-filterconfig-service/service.xml

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<xsd:complexType name="DMDataItemModel">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" minOccurs="0" />
+			<xsd:element name="dataGroupId" type="xsd:long" minOccurs="0" />
+			<xsd:element name="code_0" type="xsd:string" minOccurs="0" />
+			<xsd:element name="code_1" type="xsd:string" minOccurs="0" />
+			<xsd:element name="code_2" type="xsd:string" minOccurs="0" />
+			<xsd:element name="code_3" type="xsd:string" minOccurs="0" />
+			<xsd:element name="level" type="xsd:int" minOccurs="0" />
+			<xsd:element name="name" type="xsd:string" minOccurs="0" />
+			<xsd:element name="altername" type="xsd:string" minOccurs="0" />
+			<xsd:element name="description" type="xsd:string" minOccurs="0" />
+			<xsd:element name="validatedFrom" type="xsd:string" minOccurs="0" />
+			<xsd:element name="validatedTo" type="xsd:string" minOccurs="0" />
+			<xsd:element name="status" type="xsd:int" minOccurs="0" />
+			<xsd:element name="syncDate" type="xsd:string" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:element name="DMDataItemResultModel">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="total" type="xsd:int" minOccurs="0" />
+				<xsd:element name="data" type="DMDataItemModel"  minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<xsd:complexType name="VRConditionModel">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" minOccurs="0" />
+			<xsd:element name="filterModuleCode" type="xsd:string" minOccurs="0" />
+			<xsd:element name="filterTableField" type="xsd:string" minOccurs="0" />
+			<xsd:element name="filterTableName" type="xsd:string" minOccurs="0" />
+			<xsd:element name="specificationCode" type="xsd:string" minOccurs="0" />
+			<xsd:element name="specificationDisplayName" type="xsd:string" minOccurs="0" />
+			<xsd:element name="specificationDataCollectionId" type="xsd:string" minOccurs="0" />
+			<xsd:element name="sequenceNo" type="xsd:long" minOccurs="0" />
+			<xsd:element name="specificationBasicUnit" type="xsd:string" minOccurs="0" />
+			<xsd:element name="specificationStandard" type="xsd:string" minOccurs="0" />
+			<xsd:element name="specificationGroup" type="xsd:string" minOccurs="0" />
+			<xsd:element name="modifyDate" type="xsd:string" minOccurs="0" />
+			<xsd:element name="syncDate" type="xsd:string" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:element name="VRConditionResultModel">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="total" type="xsd:int" minOccurs="0" />
+				<xsd:element name="data" type="VRConditionModel"  minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,22 @@
+.gradle/
+build/
+target/
+bin/
+**/.DS_Store
+**/**.class
+
+##Ignore database
+**/indexes.sql
+**/sequences.sql
+**/tables.sql
+**/module-hbm.xml
+**/portlet-model-hints.xml
+**/module-spring.xml
+**/sql/**
+**/**/**.sql
+
+**/.classpath
+**/.project
+**/.sass-cache
+**/.settings
+

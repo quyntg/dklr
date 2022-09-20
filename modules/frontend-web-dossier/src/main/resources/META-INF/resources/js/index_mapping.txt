@@ -1,0 +1,43 @@
+curl -XPUT localhost:9200/index -H 'Content-Type: application/json' -d '
+{
+    "mappings": {
+        "my_type": { 
+        	"properties": {
+        		"data": {
+        			"type": "nested",
+        			"properties": {
+        				"vr_VehicleTypeCertificate": {
+        					"type": "nested",
+        					"properties": {
+        						"certifiedVehicleType": {
+        							"type": "keyword"
+        						},
+        						"dossierNo": {
+        							"type": "keyword"
+        						},
+        						"customsDeclarationNo": {
+        							"type": "keyword"
+        						},
+        						"serviceCode": {
+        							"type": "keyword"
+        						},
+        						"certificateRecordNo": {
+        							"type": "keyword"
+        						},
+        						"dossierIdCTN": {
+        							"type": "keyword"
+        						},
+        						"applicantEmail": {
+        							"type": "keyword"
+        						}
+        					}
+        				}
+        			}
+        		}
+        	}
+        }
+    }
+}
+'
+
+curl localhost:9200/my_index/_search

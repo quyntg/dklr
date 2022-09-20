@@ -1,0 +1,13 @@
+Bundle-Name: vr-filterconfig-service
+Bundle-SymbolicName: vr.filterconfig.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+Export-Package: \
+	com.fds.vr.filterconfig.model.impl,\
+	com.fds.vr.filterconfig.service.impl,\
+	com.fds.vr.filterconfig.service.persistence.impl,\
+	com.fds.vr.filterconfig.action,\
+	com.fds.vr.filterconfig.action.impl,\
+	com.fds.vr.filterconfig.action.util,\
+	com.fds.vr.filterconfig.action.exception,\

@@ -1,0 +1,9 @@
+Bundle-Name: vr-business-api
+Bundle-SymbolicName: com.fds.vr.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.fds.vr.business.model,\
+	com.fds.vr.business.service.persistence,\
+	com.fds.vr.business.exception,\
+	com.fds.vr.business.service
+-includeresource: META-INF/service.xml=../vr-business-service/service.xml
